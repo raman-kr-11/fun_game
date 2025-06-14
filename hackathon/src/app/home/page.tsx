@@ -1,13 +1,15 @@
 import React ,{useState ,useEffect} from 'react'
 import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
 import Link from 'next/link'
+import Button from '@mui/material/Button';
+
 import PersonIcon from '@mui/icons-material/Person';
 import Box from '@mui/material/Box';
 import Input from '@mui/material/Input';
 import AddCallIcon from '@mui/icons-material/AddCall';
 import MarkEmailReadIcon from '@mui/icons-material/MarkEmailRead';
 const ariaLabel = { 'aria-label': 'description' };
+
 function home1() {
        
 
@@ -21,7 +23,7 @@ function home1() {
             <p className=' text-3xl md:text:5xl font-bold'>GOKULDHAM</p>
             {/* <Link href="/home"><Button variant="outlined"className="w-[180px] text-sm md:text-base" >Complain-Here</Button></Link> */}
             <div className='flex flex-col md:flex-row items-center justify-center md:justify-between flex-wrap gap-4'>
-            <Link href="/"><Button variant="outlined"className="w-[120px] text-sm md:text-base" >Login</Button></Link>
+            <Link href="/" > <Button variant="outlined"className="w-[120px] text-sm md:text-base" >Login</Button></Link>
             <Link href="/"><Button variant="outlined"className="w-[120px] text-sm md:text-base" >Sign-Up</Button></Link></div>
             </div>
       </div>
@@ -115,6 +117,7 @@ function home1() {
   </div>
 
   <h2 className='text-white flex flex-col md:flex-row justify-center'>GOKULDHAM © 2008. All Rights Reserved.</h2>
+    
 </footer>
      </>
   )
